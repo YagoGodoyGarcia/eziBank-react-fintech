@@ -1,4 +1,19 @@
 .Header{
-    width: 100%;
-    background: white;
+    padding: inherit;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+}
+
+.ButtonCadastrar{
+    background: #007bff;
+    padding: 1.01%;
+    margin-top: 0%;
+    border-radius: 0%;
+    width: 18%;
+    border: none;
+    color: #fff;
+}
+
+button.ButtonCadastrar:hover{
+    background: #0067d4
 }
