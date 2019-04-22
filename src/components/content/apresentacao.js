@@ -3,6 +3,7 @@ import React from "react";
 // Importando os components necessários da lib react-materialize
 import { CardGroup, Card, Row } from 'react-bootstrap';
 import Celular from '../img/ezi-deshboard.png'
+
 const apresentacao = () => (
 
     <Card style={{border: "none", background: "#2DAED4", paddingTop: "4%"}}>
@@ -26,6 +27,9 @@ const apresentacao = () => (
                 </Card>
             </CardGroup>
         </Card.Body>
+        <hr style={{ height: "25px", border: "none", color: "#006FBF", backgroundColor: "#006FBF", marginTop: "0px", marginBottom: "0px" }} />
+                <hr style={{ height: "25px", border: "none", color: "#0093BF", backgroundColor: "#0093BF", marginTop: "0px", marginBottom: "0px" }} />
+                <hr style={{ height: "25px", border: "none", color: "#4EAFFF", backgroundColor: "#4EAFFF", marginTop: "0px", marginBottom: "0px" }} />
     </Card>
 
 );

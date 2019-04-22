@@ -2,7 +2,6 @@
 import React from "react";
 // Importando os components necessários da lib react-materialize
 import { CardDeck, Card, Col, Image } from 'react-bootstrap';
-import Celular from '../img/teste.png'
 import Cartao from '../img/cartao.png'
 import Dinheiro from '../img/dinheiro.png'
 import Cofre from '../img/cofre.png'
