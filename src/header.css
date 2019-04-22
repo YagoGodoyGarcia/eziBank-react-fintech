@@ -1,19 +1,39 @@
 .Header{
     padding: inherit;
-    background: #fff;
+    background: #fff; 
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
 }
 
 .ButtonCadastrar{
-    background: #007bff;
-    padding: 1.01%;
-    margin-top: 0%;
-    border-radius: 0%;
-    width: 18%;
-    border: none;
-    color: #fff;
+    background: #2DAED4 !important;; 
+    padding: 1.01% !important;;
+    margin-top: 0% !important;;
+    border-radius: 0% !important;;
+    width: 18% !important;;
+    border: none !important;;
+    color: #fff !important;;
+    margin: -1% !important;;
 }
 
 button.ButtonCadastrar:hover{
-    background: #0067d4
+    background: #2899BB !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.img{
+    width: 39.25em;
+    height: auto;
+    transform: translate(-29%,-3%);
+}
+
+.continuar{
+    background: #2DAED4 !important;
+    border: none !important;
+}
+
+button.continuar:hover{
+    background: #2899BB !important;
 }
