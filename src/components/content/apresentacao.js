@@ -12,7 +12,7 @@ const apresentacao = () => (
                     <Card.Body style={{background: "#2DAED4"}}>
                         <Card  className="text-right" style={{background: "#2DAED4",border: "none", paddingTop: "28%", width:  "67%", float: "right"}}>
                             <Card.Body>
-                                <Card.Text style={{fontSize: "1.875rem", fontWeight: "600", color: "#fff", textShadow: "#144B5B 0.1em 0.1em 0.9em"}}>
+                                <Card.Text style={{fontSize: "1.875rem", fontWeight: "600", color: "#fff", textShadow: "#144B5B 0.1em 0.1em 0.50em"}}>
                                     Que tal abrir uma conta digital para ver como a gente faz a sua vida mais simples?
                                  </Card.Text>
                             </Card.Body>
