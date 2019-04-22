@@ -3,6 +3,10 @@ import React from "react";
 // Importando os components necessários da lib react-materialize
 import { CardDeck, Card, Col, Image } from 'react-bootstrap';
 import Celular from '../img/teste.png'
+import Cartao from '../img/cartao.png'
+import Dinheiro from '../img/dinheiro.png'
+import Cofre from '../img/cofre.png'
+
 const servicos = () => (
     <Card style={{ border: "none", marginTop: "1%", width: "100%" }}>
         <center>
@@ -13,7 +17,7 @@ const servicos = () => (
         <CardDeck style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "10%", width: "100%" }}>
             <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%",background: "#006FBF", color: "#fff" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Celular} roundedCircle width="200px" height="200px" />
+                    <Image src={Cartao} roundedCircle width="200px" height="200px" />
                 </center>
                 <Card.Body>
                     <Card.Title>Crédito</Card.Title>
@@ -24,7 +28,7 @@ const servicos = () => (
             </Card>
             <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%", background: "#0093BF", color: "#fff" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Celular} roundedCircle width="200px" height="200px" />
+                    <Image src={Dinheiro} roundedCircle width="200px" height="200px" />
                 </center>
                 <Card.Body>
                     <Card.Title>Ezi+</Card.Title>
@@ -35,7 +39,7 @@ const servicos = () => (
             </Card>
             <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%",background: "#4EAFFF", color: "#fff" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Celular} roundedCircle width="200px" height="200px" />
+                    <Image src={Cofre} roundedCircle width="200px" height="200px" />
                 </center>
                 <Card.Body>
                     <Card.Title>Investimentos</Card.Title>
