@@ -13,7 +13,7 @@ const apresentacao = () => (
                     <Card.Body style={{background: "#F7F7F7"}}>
                         <Card  className="text-right" style={{background: "#F7F7F7",border: "none", paddingTop: "28%", width:  "67%", float: "right"}}>
                             <Card.Body>
-                                <Card.Text style={{fontSize: "1.875rem", fontWeight: "600", color: "#4EAFFF ",  textShadow: "1px 1px 1px #4094D9" }}>
+                                <Card.Text style={{fontSize: '1.475rem', fontWeight: "600", color: "#4EAFFF "}}>
                                     Que tal abrir uma conta digital para ver como a gente faz a sua vida mais simples?
                                  </Card.Text>
                             </Card.Body>
@@ -27,9 +27,9 @@ const apresentacao = () => (
                 </Card>
             </CardGroup>
         </Card.Body>
-        <hr style={{ height: "25px", border: "none", color: "#006FBF", backgroundColor: "#006FBF", marginTop: "0px", marginBottom: "0px" }} />
-                <hr style={{ height: "25px", border: "none", color: "#0093BF", backgroundColor: "#0093BF", marginTop: "0px", marginBottom: "0px" }} />
-                <hr style={{ height: "25px", border: "none", color: "#4EAFFF", backgroundColor: "#4EAFFF", marginTop: "0px", marginBottom: "0px" }} />
+        <hr style={{ height: "17px", border: "none", color: "#006FBF", backgroundColor: "#006FBF", marginTop: "0px", marginBottom: "0px" }} />
+                <hr style={{ height: "17px", border: "none", color: "#0093BF", backgroundColor: "#0093BF", marginTop: "0px", marginBottom: "0px" }} />
+                <hr style={{ height: "17px", border: "none", color: "#4EAFFF", backgroundColor: "#4EAFFF", marginTop: "0px", marginBottom: "0px" }} />
     </Card>
 
 );
