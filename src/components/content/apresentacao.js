@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { CardGroup, Card, Row } from 'react-bootstrap';
+import { CardGroup, Card } from 'react-bootstrap';
 import Celular from '../img/ezi-deshboard.png'
 
 const apresentacao = () => (
@@ -22,7 +22,7 @@ const apresentacao = () => (
                 </Card>
                 <Card style={{border: "none", background: "#F7F7F7"}}>
                     <Card.Text>
-                         <img src={Celular} className="img"/>
+                         <img src={Celular} className="img" aria-hidden="true" alt=""/>
                     </Card.Text>
                 </Card>
             </CardGroup>
