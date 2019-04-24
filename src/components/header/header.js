@@ -3,6 +3,8 @@ import React from "react";
 // Importando os components necessários da lib react-materialize
 import { Navbar, Modal, Form, Button } from 'react-bootstrap';
 import InputMask from 'react-input-mask';
+import LogoEzi from '../img/logoezibank.png'
+
 class Header extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -26,12 +28,11 @@ class Header extends React.Component {
             <div>
             <Navbar variant="light" className='Header'>
                 <Navbar.Brand href="#home" id="Logo" className="mr-auto">
-                    eziBANK
-             </Navbar.Brand>
+                    <img src={LogoEzi} className="" aria-hidden="true" alt="" width="159px" height="auto"/>
+                </Navbar.Brand>
                 <button className='ButtonCadastrar' onClick={this.handleShow} >
                     ABRA SUA CONTA!
                 </button>
-
             </Navbar>
             <Modal
                 show={this.state.show}
