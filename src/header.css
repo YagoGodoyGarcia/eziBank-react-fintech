@@ -29,7 +29,99 @@ button.ButtonCadastrar:hover{
     height: auto;
     /* transform: translate(-29%,-3%); */
 }
+@media screen and (max-width: 992px) {
+    .img{
+        width: 26.25em;
+        height: auto;
+        float: left;
+            /* transform: translate(-29%,-3%); */
+    }
+  }
+ 
+.GrupoCard{
+    background: #F7F7F7;
+}
 
+.CardTitle{
+    background: #F7F7F7 !important;
+    border: none !important;
+    padding-top: 28%;
+    width:  67%;
+    float: right;
+}
+
+.ContCardTitle{
+    border: none !important; 
+    background: #F7F7F7 !important; 
+}
+
+.CardTextTitle{
+    font-size: 1.475rem;
+    font-weight: 600;
+    color: #4EAFFF;
+}
+
+#Logo{
+    margin-left: 1%; 
+    font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+    .img{
+        width: 35.25em;
+        height: auto;
+        float: left;
+        transform: translate(-17%,-10%);
+        /* transform: translate(-29%,-3%); */
+    }
+    .CardTitle{
+        background: #F7F7F7 !important;
+        border: none !important;
+        padding-top: 10%;
+        width:  100%;
+        float: left;
+    }
+    .GrupoCard{
+        display: none;
+    }
+
+    .ContCardTitle{
+        display: none; 
+    }
+    .CardTextTitle{
+        font-size: 1.275rem;
+        font-weight: 600;
+        color: #4EAFFF;
+    }
+    
+    #Logo{
+        margin-left: 1%; 
+        font-size: 28px;
+        margin-right: 20% !important;
+    }
+    
+    .Header{
+        padding: inherit;
+        background: #fff; 
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+        position: fixed !important;
+        width: 100%;
+        z-index: 1;
+        /* margin-top: -1%; */
+    }
+    
+    .ButtonCadastrar{
+        background: #2DAED4 !important;; 
+        padding: 1.01% !important;;
+        margin-top: 0% !important;;
+        border-radius: 0% !important;;
+        width: 38% !important;;
+        border: none !important;;
+        color: #fff !important;;
+        margin: -1% !important;;
+    }
+    
+}
 .continuar{
     background: #2DAED4 !important;
     border: none !important;
@@ -37,4 +129,27 @@ button.ButtonCadastrar:hover{
 
 button.continuar:hover{
     background: #2899BB !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+}
+.CardService{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    width: 100%; 
+}
+
+.ContService{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fff;
+}
+
+.IconService{
+    width: 150px;
+    height: 150px; 
 }

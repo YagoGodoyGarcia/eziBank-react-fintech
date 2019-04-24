@@ -25,7 +25,7 @@ class Header extends React.Component {
         return (
             <div>
             <Navbar variant="light" className='Header'>
-                <Navbar.Brand href="#home" style={{ marginLeft: '1%', fontSize: '28px' }} className="mr-auto">
+                <Navbar.Brand href="#home" id="Logo" className="mr-auto">
                     eziBANK
              </Navbar.Brand>
                 <button className='ButtonCadastrar' onClick={this.handleShow} >

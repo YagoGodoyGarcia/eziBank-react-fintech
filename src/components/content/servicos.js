@@ -13,10 +13,10 @@ const servicos = () => (
                 Resolva sua vida direto no app!
             </Card.Text>
         </center>    
-        <CardDeck style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "10%", width: "100%" }}>
-            <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%",background: "#006FBF", color: "#fff" }}>
+        <CardDeck className="CardService">
+            <Card className="text-center ContService" style={{ background: "#006FBF" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Cartao} roundedCircle width="200px" height="200px" />
+                    <Image src={Cartao} roundedCircle  className='IconService'/>
                 </center>
                 <Card.Body>
                     <Card.Title>Crédito</Card.Title>
@@ -25,9 +25,9 @@ const servicos = () => (
                      </Card.Text>
                 </Card.Body>
             </Card>
-            <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%", background: "#0093BF", color: "#fff" }}>
+            <Card className="text-center ContService" style={{ background: "#0093BF" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Dinheiro} roundedCircle width="200px" height="200px" />
+                    <Image src={Dinheiro} roundedCircle className='IconService'/>
                 </center>
                 <Card.Body>
                     <Card.Title>Ezi+</Card.Title>
@@ -36,9 +36,9 @@ const servicos = () => (
                      </Card.Text>
                 </Card.Body>
             </Card>
-            <Card className="text-center" style={{ paddingLeft: "5%", paddingRight: "5%",background: "#4EAFFF", color: "#fff" }}>
+            <Card className="text-center ContService" style={{ background: "#4EAFFF" }}>
                 <center style={{ paddingTop: "10%" }}>
-                    <Image src={Cofre} roundedCircle width="200px" height="200px" />
+                    <Image src={Cofre} roundedCircle className='IconService'/>
                 </center>
                 <Card.Body>
                     <Card.Title>Investimentos</Card.Title>

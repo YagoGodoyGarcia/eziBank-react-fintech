@@ -8,12 +8,12 @@ const apresentacao = () => (
 
     <Card style={{border: "none", background: "#F7F7F7", paddingTop: "4%"}}>
         <Card.Body>
-            <CardGroup style={{background: "#F7F7F7"}}>
-                <Card style={{border: "none", background: "#F7F7F7"}}>
+            <CardGroup className='GrupoCard'>
+                <Card className='ContCardTitle'>
                     <Card.Body style={{background: "#F7F7F7"}}>
-                        <Card  className="text-right" style={{background: "#F7F7F7",border: "none", paddingTop: "28%", width:  "67%", float: "right"}}>
+                        <Card  className="text-left CardTitle">
                             <Card.Body>
-                                <Card.Text style={{fontSize: '1.475rem', fontWeight: "600", color: "#4EAFFF "}}>
+                                <Card.Text className='CardTextTitle'>
                                     Que tal abrir uma conta digital para ver como a gente faz a sua vida mais simples?
                                  </Card.Text>
                             </Card.Body>
